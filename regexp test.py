@@ -1,6 +1,6 @@
 import re
 
-exp = r"\b[aeiouAEIOU]\w+"
-s = "AV is largest Analytics community of India"
+exp = r'<a .*?href=["\'](?:\w*?://)?(\w[\w.-]*)'
+s = r'<li><a href="adworker.ru/">'
 result = re.findall(exp, s)
 print(result)
