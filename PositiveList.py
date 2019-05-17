@@ -1,3 +1,4 @@
+#Создание нового класса списка
 class NonPositiveError(Exception):
     pass
 

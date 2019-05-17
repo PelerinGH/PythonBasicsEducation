@@ -1,3 +1,4 @@
+#Генератор простых чисел
 def primes():
     now = 2
     primeset = set()

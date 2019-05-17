@@ -1,3 +1,4 @@
+#находит все .py файлы
 import os
 import os.path
 import shutil
