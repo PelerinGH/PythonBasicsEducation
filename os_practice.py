@@ -1,4 +1,4 @@
-#находит все .py файлы
+#находит все .py файлы в текущей директории и подпапках
 import os
 import os.path
 import shutil

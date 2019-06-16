@@ -13,5 +13,7 @@ def primes():
             yield now
         now+=1
 p=primes()
+
+
 for i in range(50):
     print(next(p))
